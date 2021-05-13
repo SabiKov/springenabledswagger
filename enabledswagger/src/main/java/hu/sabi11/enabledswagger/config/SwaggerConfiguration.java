@@ -19,9 +19,11 @@ public class SwaggerConfiguration {
 
     @Bean
     public Docket swaggerConfig() {
-        return new Docket(DocumentationType.SWAGGER_2).groupName("user-api")
-                .apiInfo(apiInfo()).select()
-                //.paths(PathSelectors.ant("/api/user"))
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("user-api")
+                .apiInfo(apiInfo())
+                .select()
+                .paths(PathSelectors.ant("/api/user"))
                 .apis(RequestHandlerSelectors.basePackage("hu.sabi11.enabledswagger"))
                 .build();
     }

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e8021b7-fbf4-4645-8a15-6e0b81996f2c" name="Default Changelist" comment="" />
+    <list default="true" id="3e8021b7-fbf4-4645-8a15-6e0b81996f2c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/sabi11/enabledswagger/config/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/sabi11/enabledswagger/config/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/sabi11/enabledswagger/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/sabi11/enabledswagger/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/sabi11/enabledswagger/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/sabi11/enabledswagger/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnabledswaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="enabledswagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hu.sabi11.enabledswagger.EnabledswaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -78,6 +95,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -89,16 +107,11 @@
       <option name="presentableId" value="Default" />
       <updated>1593723954437</updated>
       <workItem from="1593723959699" duration="26000" />
+      <workItem from="1620936795081" duration="2903000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="284" y="294" key="FileChooserDialogImpl" timestamp="1593723983050">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="284" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1593723983050" />
+    <option name="version" value="3" />
   </component>
 </project>
